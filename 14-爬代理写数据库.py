@@ -155,7 +155,7 @@ class proxy:
 
 
 px = proxy()
-px.return_proxy()
+px.return_proxy('http')
 
 
 

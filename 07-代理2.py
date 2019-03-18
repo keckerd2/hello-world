@@ -147,7 +147,7 @@ class proxy:
 
 
 px = proxy()
-ip_port = px.return_proxy()
-print(ip)
+ip_port = px.return_proxy(choice = 'http')
+print(ip_port)
 # ip_list = px.get_proxy()
 # print(ip)
